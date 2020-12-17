@@ -300,15 +300,27 @@ p {
 }
 
 .vector-img-4 {
-    bottom: 0px;
+    bottom: -50px;
 }
 
 .vector-img-5 {
-    bottom: -40px;
+    bottom: -90px;
 }
 
 .series-section .card-body {
     height: 135px;
+}
+
+.view-contain hr {
+    background-color: var(--gray);
+    filter: opacity(.2);
+    width: 40%;
+    height: 1px;
+    border: none !important;
+}
+
+.view-contain .btn-more {
+    width: 20%;
 }
 
 .vector-testimonial-img {
@@ -416,6 +428,14 @@ footer a:hover {
     .discover-title,
     .discover-sub-title {
         font-size: 22px;
+    }
+
+    .view-contain hr {
+        width: 30%;
+    }
+    
+    .view-contain .btn-more {
+        width: 40%;
     }
 
     .testimonial-row {
