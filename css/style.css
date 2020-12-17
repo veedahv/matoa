@@ -158,7 +158,7 @@ p {
 
 
 .discover-card {
-    padding-right: 50px;
+    padding-right: 20px;
     padding-bottom: 80px;
 }
 
@@ -333,7 +333,7 @@ p {
     padding-top: 60%;
     position: relative;
 }
-/* .testimonial-section  */
+
 .carousel-inner {
     overflow: visible;
 }
@@ -411,6 +411,11 @@ footer a:hover {
     .home-txt {
         font-size: 35px;
         max-width: 290px;
+    }
+
+    .discover-title,
+    .discover-sub-title {
+        font-size: 22px;
     }
 
     .testimonial-row {
