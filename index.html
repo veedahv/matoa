@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>MATOA</title>
+</head>
+
+<body>
+    <header>
+        <div class="container py-2">
+            <nav class="navbar navbar-expand-lg navbar-light px-0">
+                <a class="navbar-brand pr-5 mr-2" href="#">
+                    <img src="./assets/images/header-logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto pl-xl-5">
+                        <li class="nav-item px-lg-3 py-2">
+                            <a class="nav-link" href="#">Watches <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item px-lg-3 py-2">
+                            <a class="nav-link" href="#">Eyewear</a>
+                        </li>
+                        <li class="nav-item px-lg-3 py-2">
+                            <a class="nav-link" href="#">Accessories</a>
+                        </li>
+                        <li class="nav-item px-lg-3 py-2">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                    </ul>
+                    <div class="form-inline  my-2 my-lg-0">
+                        <div>
+                            <img src="./assets/images/search.png" alt="">
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <a href="" class="px-4 nav-link">
+                                <img src="./assets/images/user-img.png" alt="" class="user-img mr-2">
+                                <span>Log In</span>
+                            </a>
+                        </div>
+                        <div class="bag">
+                            <img src="./assets/images/cart-bag.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="home-section mb-5 py-5" id="home-section">
+        <div class="container">
+            <div id="carouselExampleInterval" class="carousel slide position-relative" data-ride="carousel">
+                <div class="carousel-inner position-relative">
+                    <div class="carousel-item active" data-interval="10000">
+                        <div class="card rounded-0 border-0 mb-3 w-100 bg-pink py-5">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 home-img-contain position-relative">
+                                    <img src="./assets/images/image 6.png" class="home-img" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <img src="./assets/images/Vector 12.png" alt="" class="position-absolute vector-home-img vector-home-img-1">
+                                        <img src="./assets/images/Vector 13.png" alt="" class="position-absolute vector-home-img vector-home-img-2">
+                                        <img src="./assets/images/Vector 14.png" alt="" class="position-absolute vector-home-img vector-home-img-3">
+                                        <h1 class="card-title head-txt headings home-txt">WAY KAMBAS MINI EBONY</h1>
+                                        <p class="card-text">
+                                            MATOA Way Kambas - This wood is chosen to represent the Sumatran Rhino's
+                                            skin which is
+                                            designed
+                                            with an overlap effect on its strap to represent Rhino's skin.
+                                        </p>
+                                        <div class="mb-5">
+                                            <a class="discover-btn">
+                                                Discover
+                                            </a>
+                                        </div>
+                                        <a href="#" class="btn btn-gen mr-2 home-btn-cart rounded-0">
+                                            <span class="d-flex align-items-center">
+                                                <span>
+                                                    <svg width="22" height="19" class="svg-fill mr-2"
+                                                        viewBox="0 0 22 19" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M21.3185 3.95208L18.7585 13.3388C18.7111 13.513 18.5593 13.6384 18.3794 13.6522L8.41454 14.4187L7.94341 15.3601H17.4935C17.7291 15.3601 17.9202 15.5512 17.9202 15.7868C17.9202 16.0225 17.7291 16.2135 17.4935 16.2135H7.2534C7.10552 16.2135 6.96816 16.137 6.8904 16.0112C6.81264 15.8854 6.80557 15.7283 6.8717 15.596L7.42211 14.4952L7.28557 14.5056L7.2534 14.5068C7.05747 14.5069 6.88664 14.3736 6.83919 14.1835L3.59504 1.16336C3.54305 0.979604 3.37513 0.8529 3.18416 0.853341H0.426671C0.191027 0.853341 0 0.662314 0 0.426671C0 0.191027 0.191027 0 0.426671 0H3.18416C3.76369 0.000889804 4.27074 0.390021 4.4215 0.949598L5.03736 3.4213C5.06462 3.41609 5.0923 3.41344 5.12005 3.41337H20.9069C21.0398 3.41338 21.1651 3.47535 21.2458 3.58098C21.3266 3.6866 21.3534 3.82381 21.3185 3.95208ZM9.38679 8.96006C9.38679 8.72441 9.57782 8.53338 9.81346 8.53338H11.9468V6.40003C11.9468 6.16439 12.1378 5.97336 12.3735 5.97336C12.6091 5.97336 12.8002 6.16439 12.8002 6.40003V8.53338H14.9335C15.1692 8.53338 15.3602 8.72441 15.3602 8.96006C15.3602 9.1957 15.1692 9.38673 14.9335 9.38673H12.8002V11.5201C12.8002 11.7557 12.6091 11.9467 12.3735 11.9467C12.1378 11.9467 11.9468 11.7557 11.9468 11.5201V9.38673H9.81346C9.57782 9.38673 9.38679 9.1957 9.38679 8.96006ZM5.24726 4.26672H20.3482L18.0138 12.8243L7.57979 13.6272L5.24726 4.26672ZM8.53344 17.0668C8.06215 17.0668 7.6801 17.4489 7.6801 17.9202C7.6801 18.3915 8.06215 18.7735 8.53344 18.7735C9.00473 18.7735 9.38678 18.3915 9.38678 17.9202C9.38678 17.4489 9.00473 17.0668 8.53344 17.0668ZM15.3602 17.9202C15.3602 17.4489 15.7423 17.0668 16.2135 17.0668C16.6848 17.0668 17.0669 17.4489 17.0669 17.9202C17.0669 18.3915 16.6848 18.7735 16.2135 18.7735C15.7423 18.7735 15.3602 18.3915 15.3602 17.9202Z"
+                                                            fill="#D84727" />
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    Add to cart
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a href="#" class="btn btn-gen cicil-btn rounded-0">
+                                            <svg width="57" height="30" class="svg-fill" viewBox="0 0 57 33" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M14.9518 19.921C13.5385 18.9344 11.9887 20.2055 11.9887 20.2055C9.83481 21.6359 6.95407 21.1843 5.3341 19.1622C3.71413 17.1402 3.88533 14.2098 5.72958 12.3929C7.57383 10.576 10.4873 10.4675 12.4598 12.1423C13.2258 12.6118 14.19 12.6026 14.9471 12.1186C14.9471 12.1186 16.6523 10.6957 14.2499 8.79843H14.3205C10.6545 6.17949 5.61616 6.77102 2.64697 10.169C-0.322227 13.5669 -0.263346 18.6739 2.78339 22.0015C5.83013 25.3291 10.8808 25.8027 14.4854 23.0988C16.5393 21.2158 14.9518 19.921 14.9518 19.921Z"
+                                                    fill="#D84727" />
+                                                <path
+                                                    d="M40.7336 19.9211C39.3204 18.9345 37.7752 20.2056 37.7752 20.2056C35.6229 21.631 32.7474 21.1777 31.1308 19.1582C29.5142 17.1386 29.6852 14.2131 31.5258 12.3983C33.3664 10.5835 36.2748 10.4728 38.2463 12.1424C39.0111 12.6099 39.973 12.6007 40.7289 12.1187C40.7289 12.1187 42.4342 10.6958 40.0317 8.79853H40.1023C36.4369 6.18594 31.4039 6.78108 28.4394 10.1777C25.4748 13.5743 25.5354 18.6762 28.5796 22.0006C31.6238 25.3249 36.6695 25.7989 40.2719 23.0989C42.3211 21.2159 40.7336 19.9211 40.7336 19.9211Z"
+                                                    fill="#D84727" />
+                                                <path
+                                                    d="M20.9296 5.9005C21.9546 5.9005 22.7856 4.89393 22.7856 3.65227C22.7856 2.41062 21.9546 1.40405 20.9296 1.40405C19.9045 1.40405 19.0735 2.41062 19.0735 3.65227C19.0735 4.89393 19.9045 5.9005 20.9296 5.9005Z"
+                                                    fill="#D84727" />
+                                                <path
+                                                    d="M22.7858 9.1969C22.736 8.20265 21.9208 7.42224 20.9321 7.42224C19.9434 7.42224 19.1282 8.20265 19.0784 9.1969V22.6578C19.0439 23.347 19.3895 23.9993 19.9772 24.3544C20.565 24.7094 21.2992 24.7094 21.887 24.3544C22.4747 23.9993 22.8203 23.347 22.7858 22.6578V9.1969Z"
+                                                    fill="#D84727" />
+                                                <path
+                                                    d="M46.8341 5.9005C47.8591 5.9005 48.6901 4.89393 48.6901 3.65227C48.6901 2.41062 47.8591 1.40405 46.8341 1.40405C45.809 1.40405 44.978 2.41062 44.978 3.65227C44.978 4.89393 45.809 5.9005 46.8341 5.9005Z"
+                                                    fill="#D84727" />
+                                                <path
+                                                    d="M48.69 9.1969C48.6402 8.20265 47.8251 7.42224 46.8363 7.42224C45.8476 7.42224 45.0325 8.20265 44.9827 9.1969V22.6578C44.9481 23.347 45.2937 23.9993 45.8815 24.3544C46.4692 24.7094 47.2035 24.7094 47.7912 24.3544C48.379 23.9993 48.7245 23.347 48.69 22.6578V9.1969Z"
+                                                    fill="#D84727" />
+                                                <path
+                                                    d="M56.7077 2.34314C56.7422 1.65389 56.3967 1.00159 55.8089 0.646538C55.2212 0.291486 54.4869 0.291486 53.8992 0.646538C53.3114 1.00159 52.9658 1.65389 53.0004 2.34314V9.19689V22.6578C52.9658 23.347 53.3114 23.9993 53.8992 24.3544C54.4869 24.7094 55.2212 24.7094 55.8089 24.3544C56.3967 23.9993 56.7422 23.347 56.7077 22.6578V9.19689V2.34314Z"
+                                                    fill="#D84727" />
+                                                <path
+                                                    d="M26.5825 27.8183C25.744 27.0214 24.3025 27.5384 24.3025 27.5384C23.4098 28.4407 22.1969 28.9478 20.932 28.9478C19.6671 28.9478 18.4542 28.4407 17.5615 27.5384C17.5615 27.5384 16.1153 27.0214 15.2768 27.8183C14.6926 28.4165 14.5541 29.324 14.9329 30.0712C16.5106 31.6966 18.6724 32.6129 20.9297 32.6129C23.1869 32.6129 25.3487 31.6966 26.9264 30.0712C27.3098 29.3247 27.1709 28.4144 26.5825 27.8183Z"
+                                                    fill="#D84727" />
+                                            </svg>
+                                            <!-- <img src="./assets/images/cicil.svg" class="svg-fill d-inline-block" alt=""> -->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="10000">
+                        <div class="card rounded-0 border-0 mb-3 w-100 bg-pink py-5">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 home-img-contain position-relative">
+                                    <img src="./assets/images/image 6.png" class="home-img" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <img src="./assets/images/Vector 12.png" alt="" class="position-absolute vector-home-img vector-home-img-1">
+                                        <img src="./assets/images/Vector 13.png" alt="" class="position-absolute vector-home-img vector-home-img-2">
+                                        <img src="./assets/images/Vector 14.png" alt="" class="position-absolute vector-home-img vector-home-img-3">
+                                        <h1 class="card-title head-txt headings home-txt">WAY KAMBAS MINI EBONY</h1>
+                                        <p class="card-text">
+                                            MATOA Way Kambas - This wood is chosen to represent the Sumatran Rhino's
+                                            skin which is
+                                            designed
+                                            with an overlap effect on its strap to represent Rhino's skin.
+                                        </p>
+                                        <div class="mb-5">
+                                            <a class="discover-btn">
+                                                Discover
+                                            </a>
+                                        </div>
+                                        <a href="#" class="btn btn-gen mr-2 home-btn-cart rounded-0">
+                                            <span class="d-flex align-items-center">
+                                                <span>
+                                                    <svg width="22" height="19" class="svg-fill mr-2"
+                                                        viewBox="0 0 22 19" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M21.3185 3.95208L18.7585 13.3388C18.7111 13.513 18.5593 13.6384 18.3794 13.6522L8.41454 14.4187L7.94341 15.3601H17.4935C17.7291 15.3601 17.9202 15.5512 17.9202 15.7868C17.9202 16.0225 17.7291 16.2135 17.4935 16.2135H7.2534C7.10552 16.2135 6.96816 16.137 6.8904 16.0112C6.81264 15.8854 6.80557 15.7283 6.8717 15.596L7.42211 14.4952L7.28557 14.5056L7.2534 14.5068C7.05747 14.5069 6.88664 14.3736 6.83919 14.1835L3.59504 1.16336C3.54305 0.979604 3.37513 0.8529 3.18416 0.853341H0.426671C0.191027 0.853341 0 0.662314 0 0.426671C0 0.191027 0.191027 0 0.426671 0H3.18416C3.76369 0.000889804 4.27074 0.390021 4.4215 0.949598L5.03736 3.4213C5.06462 3.41609 5.0923 3.41344 5.12005 3.41337H20.9069C21.0398 3.41338 21.1651 3.47535 21.2458 3.58098C21.3266 3.6866 21.3534 3.82381 21.3185 3.95208ZM9.38679 8.96006C9.38679 8.72441 9.57782 8.53338 9.81346 8.53338H11.9468V6.40003C11.9468 6.16439 12.1378 5.97336 12.3735 5.97336C12.6091 5.97336 12.8002 6.16439 12.8002 6.40003V8.53338H14.9335C15.1692 8.53338 15.3602 8.72441 15.3602 8.96006C15.3602 9.1957 15.1692 9.38673 14.9335 9.38673H12.8002V11.5201C12.8002 11.7557 12.6091 11.9467 12.3735 11.9467C12.1378 11.9467 11.9468 11.7557 11.9468 11.5201V9.38673H9.81346C9.57782 9.38673 9.38679 9.1957 9.38679 8.96006ZM5.24726 4.26672H20.3482L18.0138 12.8243L7.57979 13.6272L5.24726 4.26672ZM8.53344 17.0668C8.06215 17.0668 7.6801 17.4489 7.6801 17.9202C7.6801 18.3915 8.06215 18.7735 8.53344 18.7735C9.00473 18.7735 9.38678 18.3915 9.38678 17.9202C9.38678 17.4489 9.00473 17.0668 8.53344 17.0668ZM15.3602 17.9202C15.3602 17.4489 15.7423 17.0668 16.2135 17.0668C16.6848 17.0668 17.0669 17.4489 17.0669 17.9202C17.0669 18.3915 16.6848 18.7735 16.2135 18.7735C15.7423 18.7735 15.3602 18.3915 15.3602 17.9202Z"
+                                                            fill="#D84727" />
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    Add to cart
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a href="#" class="btn btn-gen cicil-btn rounded-0">
+                                            <svg width="57" height="30" class="svg-fill" viewBox="0 0 57 33" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M14.9518 19.921C13.5385 18.9344 11.9887 20.2055 11.9887 20.2055C9.83481 21.6359 6.95407 21.1843 5.3341 19.1622C3.71413 17.1402 3.88533 14.2098 5.72958 12.3929C7.57383 10.576 10.4873 10.4675 12.4598 12.1423C13.2258 12.6118 14.19 12.6026 14.9471 12.1186C14.9471 12.1186 16.6523 10.6957 14.2499 8.79843H14.3205C10.6545 6.17949 5.61616 6.77102 2.64697 10.169C-0.322227 13.5669 -0.263346 18.6739 2.78339 22.0015C5.83013 25.3291 10.8808 25.8027 14.4854 23.0988C16.5393 21.2158 14.9518 19.921 14.9518 19.921Z"
+                                                    fill="#D84727" />
+                                                <path
+                                                    d="M40.7336 19.9211C39.3204 18.9345 37.7752 20.2056 37.7752 20.2056C35.6229 21.631 32.7474 21.1777 31.1308 19.1582C29.5142 17.1386 29.6852 14.2131 31.5258 12.3983C33.3664 10.5835 36.2748 10.4728 38.2463 12.1424C39.0111 12.6099 39.973 12.6007 40.7289 12.1187C40.7289 12.1187 42.4342 10.6958 40.0317 8.79853H40.1023C36.4369 6.18594 31.4039 6.78108 28.4394 10.1777C25.4748 13.5743 25.5354 18.6762 28.5796 22.0006C31.6238 25.3249 36.6695 25.7989 40.2719 23.0989C42.3211 21.2159 40.7336 19.9211 40.7336 19.9211Z"
+                                                    fill="#D84727" />
+                                                <path
+                                                    d="M20.9296 5.9005C21.9546 5.9005 22.7856 4.89393 22.7856 3.65227C22.7856 2.41062 21.9546 1.40405 20.9296 1.40405C19.9045 1.40405 19.0735 2.41062 19.0735 3.65227C19.0735 4.89393 19.9045 5.9005 20.9296 5.9005Z"
+                                                    fill="#D84727" />
+                                                <path
+                                                    d="M22.7858 9.1969C22.736 8.20265 21.9208 7.42224 20.9321 7.42224C19.9434 7.42224 19.1282 8.20265 19.0784 9.1969V22.6578C19.0439 23.347 19.3895 23.9993 19.9772 24.3544C20.565 24.7094 21.2992 24.7094 21.887 24.3544C22.4747 23.9993 22.8203 23.347 22.7858 22.6578V9.1969Z"
+                                                    fill="#D84727" />
+                                                <path
+                                                    d="M46.8341 5.9005C47.8591 5.9005 48.6901 4.89393 48.6901 3.65227C48.6901 2.41062 47.8591 1.40405 46.8341 1.40405C45.809 1.40405 44.978 2.41062 44.978 3.65227C44.978 4.89393 45.809 5.9005 46.8341 5.9005Z"
+                                                    fill="#D84727" />
+                                                <path
+                                                    d="M48.69 9.1969C48.6402 8.20265 47.8251 7.42224 46.8363 7.42224C45.8476 7.42224 45.0325 8.20265 44.9827 9.1969V22.6578C44.9481 23.347 45.2937 23.9993 45.8815 24.3544C46.4692 24.7094 47.2035 24.7094 47.7912 24.3544C48.379 23.9993 48.7245 23.347 48.69 22.6578V9.1969Z"
+                                                    fill="#D84727" />
+                                                <path
+                                                    d="M56.7077 2.34314C56.7422 1.65389 56.3967 1.00159 55.8089 0.646538C55.2212 0.291486 54.4869 0.291486 53.8992 0.646538C53.3114 1.00159 52.9658 1.65389 53.0004 2.34314V9.19689V22.6578C52.9658 23.347 53.3114 23.9993 53.8992 24.3544C54.4869 24.7094 55.2212 24.7094 55.8089 24.3544C56.3967 23.9993 56.7422 23.347 56.7077 22.6578V9.19689V2.34314Z"
+                                                    fill="#D84727" />
+                                                <path
+                                                    d="M26.5825 27.8183C25.744 27.0214 24.3025 27.5384 24.3025 27.5384C23.4098 28.4407 22.1969 28.9478 20.932 28.9478C19.6671 28.9478 18.4542 28.4407 17.5615 27.5384C17.5615 27.5384 16.1153 27.0214 15.2768 27.8183C14.6926 28.4165 14.5541 29.324 14.9329 30.0712C16.5106 31.6966 18.6724 32.6129 20.9297 32.6129C23.1869 32.6129 25.3487 31.6966 26.9264 30.0712C27.3098 29.3247 27.1709 28.4144 26.5825 27.8183Z"
+                                                    fill="#D84727" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-control-contain d-flex position-absolute">
+                    <a class="carousel-control-prev p-3 position-relative btn-gen" href="#carouselExampleInterval"
+                        role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true">
+                            <svg width="14" height="25" viewBox="0 0 14 25" class="svg-stroke" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 1L1.5 12.5L13 24" stroke="#D84727" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next p-3 ml-2 position-relative btn-gen" href="#carouselExampleInterval"
+                        role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true">
+                            <svg width="14" height="25" viewBox="0 0 14 25" class="svg-stroke" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L12.5 12.5L1 24" stroke="#D84727" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="discover-section" id="discover-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card rounded-0 border-0 discover-card mb-3 position-relative">
+                        <div class="card-body">
+                            <h2 class="card-title discover-title head-txt">Luxurious <span
+                                    class="discover-sub-title">Eyewear</span></h2>
+                            <p class="card-text discover-txt">
+                                See the beauty of exotic world with the luxurious glasses
+                            </p>
+                            <a href="#" class="discover-btn">Discover Now</a>
+                            <img src="./assets/images/image 7.png" alt="" class="discover-glasses position-absolute">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card rounded-0 border-0 discover-card mb-3 position-relative">
+                        <div class="card-body">
+                            <h2 class="card-title discover-title head-txt">Comfortable <span
+                                    class="discover-sub-title">Watches</span></h2>
+                            <p class="card-text discover-txt">
+                                Feels the balancing function and beauty in our wooden watches
+                            </p>
+                            <a href="#" class="discover-btn">Discover Now</a>
+                            <img src="./assets/images/image 8.png" alt="" class="discover-watches position-absolute">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="deals-section py-5" id="deals-section">
+        <div class="container">
+            <h2 class="headings head-txt mb-5">
+                Monthly Deals
+            </h2>
+            <div class="row">
+                <div class="col-md-6 my-4 col-lg-3">
+                    <div class="card rounded-0 border-0 deals-card h-100">
+                        <div class="card-body">
+                            <div class="deals-img-container deals-img-container-1 position-relative">
+                            </div>
+                            <h4 class="card-title head-txt deals-item">Singo Maple</h4>
+                            <small class="card-text d-block">
+                                20% Off
+                            </small>
+                            <del><small>Rp 1.500.000</small></del>
+                            <h5 class="deals-price">Rp 1.264.000</h5>
+                            <div class="show-btn">
+                                <a href="#" class="btn rounded-0 btn-gen">
+                                    <svg width="20" height="19" class="svg-fill" viewBox="0 0 20 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10.0036 2.6792C10.9066 1.6216 12.6428 0 14.8 0C17.9103 0 20 2.25056 20 5.6C20 11.574 10.9772 17.7803 10.4636 18.1336L10.4536 18.1405L9.9976 18.4L9.5432 18.0838C9.53815 18.0802 9.53163 18.0757 9.52367 18.0702C8.91773 17.6504 0 11.4725 0 5.6C0 2.25056 2.08968 0 5.2 0C7.37992 0 9.10728 1.62008 10.0036 2.6792ZM0.799967 5.59997C0.799967 11.2 9.99997 17.427 9.99997 17.427V17.4271C9.99997 17.4271 19.2 11.2668 19.2 5.59997C19.2 2.79997 17.6 0.799967 14.8 0.799967C12.0666 0.799967 9.99997 3.99997 9.99997 3.99997C9.99997 3.99997 7.96661 0.799967 5.19997 0.799967C2.39997 0.799967 0.799967 2.79997 0.799967 5.59997Z"
+                                            fill="#D84727" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="btn rounded-0 btn-gen">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-4 col-lg-3">
+                    <div class="card rounded-0 border-0 deals-card h-100">
+                        <div class="card-body">
+                            <div class="deals-img-container deals-img-container-2 position-relative">
+                            </div>
+                            <h4 class="card-title head-txt">Singo Ebony</h4>
+                            <small class="card-text d-block">
+                                20% Off
+                            </small>
+                            <del><small>Rp 1.500.000</small></del>
+                            <h5 class="deals-price">Rp 1.264.000</h5>
+                            <div class="show-btn">
+                                <a href="#" class="btn rounded-0 btn-gen">
+                                    <svg width="20" height="19" class="svg-fill" viewBox="0 0 20 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10.0036 2.6792C10.9066 1.6216 12.6428 0 14.8 0C17.9103 0 20 2.25056 20 5.6C20 11.574 10.9772 17.7803 10.4636 18.1336L10.4536 18.1405L9.9976 18.4L9.5432 18.0838C9.53815 18.0802 9.53163 18.0757 9.52367 18.0702C8.91773 17.6504 0 11.4725 0 5.6C0 2.25056 2.08968 0 5.2 0C7.37992 0 9.10728 1.62008 10.0036 2.6792ZM0.799967 5.59997C0.799967 11.2 9.99997 17.427 9.99997 17.427V17.4271C9.99997 17.4271 19.2 11.2668 19.2 5.59997C19.2 2.79997 17.6 0.799967 14.8 0.799967C12.0666 0.799967 9.99997 3.99997 9.99997 3.99997C9.99997 3.99997 7.96661 0.799967 5.19997 0.799967C2.39997 0.799967 0.799967 2.79997 0.799967 5.59997Z"
+                                            fill="#D84727" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="btn rounded-0 btn-gen">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-4 col-lg-3">
+                    <div class="card rounded-0 border-0 deals-card h-100">
+                        <div class="card-body">
+                            <div class="deals-img-container deals-img-container-3 position-relative">
+                            </div>
+                            <h4 class="card-title head-txt deals-item">Rakai Ebony</h4>
+                            <small class="card-text d-block">
+                                15% Off
+                            </small>
+                            <del><small>Rp 1.280.000</small></del>
+                            <h5 class="deals-price">Rp 1.118.000</h5>
+                            <div class="show-btn">
+                                <a href="#" class="btn rounded-0 btn-gen">
+                                    <svg width="20" height="19" class="svg-fill" viewBox="0 0 20 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10.0036 2.6792C10.9066 1.6216 12.6428 0 14.8 0C17.9103 0 20 2.25056 20 5.6C20 11.574 10.9772 17.7803 10.4636 18.1336L10.4536 18.1405L9.9976 18.4L9.5432 18.0838C9.53815 18.0802 9.53163 18.0757 9.52367 18.0702C8.91773 17.6504 0 11.4725 0 5.6C0 2.25056 2.08968 0 5.2 0C7.37992 0 9.10728 1.62008 10.0036 2.6792ZM0.799967 5.59997C0.799967 11.2 9.99997 17.427 9.99997 17.427V17.4271C9.99997 17.4271 19.2 11.2668 19.2 5.59997C19.2 2.79997 17.6 0.799967 14.8 0.799967C12.0666 0.799967 9.99997 3.99997 9.99997 3.99997C9.99997 3.99997 7.96661 0.799967 5.19997 0.799967C2.39997 0.799967 0.799967 2.79997 0.799967 5.59997Z"
+                                            fill="#D84727" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="btn rounded-0 btn-gen">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-4 col-lg-3">
+                    <div class="card rounded-0 border-0 deals-card h-100">
+                        <div class="card-body">
+                            <div class="deals-img-container deals-img-container-4 position-relative">
+                            </div>
+                            <h4 class="card-title head-txt deals-item">Way Kambas Mini Maple</h4>
+                            <small class="card-text d-block">
+                                10% Off
+                            </small>
+                            <del><small>Rp 1.280.000</small></del>
+                            <h5 class="deals-price">Rp 1.024.000</h5>
+                            <div class="show-btn">
+                                <a href="#" class="btn rounded-0 btn-gen">
+                                    <svg width="20" height="19" class="svg-fill" viewBox="0 0 20 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10.0036 2.6792C10.9066 1.6216 12.6428 0 14.8 0C17.9103 0 20 2.25056 20 5.6C20 11.574 10.9772 17.7803 10.4636 18.1336L10.4536 18.1405L9.9976 18.4L9.5432 18.0838C9.53815 18.0802 9.53163 18.0757 9.52367 18.0702C8.91773 17.6504 0 11.4725 0 5.6C0 2.25056 2.08968 0 5.2 0C7.37992 0 9.10728 1.62008 10.0036 2.6792ZM0.799967 5.59997C0.799967 11.2 9.99997 17.427 9.99997 17.427V17.4271C9.99997 17.4271 19.2 11.2668 19.2 5.59997C19.2 2.79997 17.6 0.799967 14.8 0.799967C12.0666 0.799967 9.99997 3.99997 9.99997 3.99997C9.99997 3.99997 7.96661 0.799967 5.19997 0.799967C2.39997 0.799967 0.799967 2.79997 0.799967 5.59997Z"
+                                            fill="#D84727" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="btn rounded-0 btn-gen">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news-section position-relative mb-5 py-5" id="news-section">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <div class="card-body pl-0">
+                        <h2 class="headings head-txt mb-5">
+                            Recent News
+                        </h2>
+                        <small class="my-4 pt-5">
+                            Where To Travel
+                        </small>
+                        <h3 class="card-title head-txt">Matoa Where To Travel? Yogyakarta</h3>
+                        <a href="#" class="btn btn-gen mt-4 mr-2 rounded-0">Discover</a>
+                    </div>
+                </div>
+                <div class="col-md-8 position-relative">
+                    <img src="./assets/images/Vector 6.png" alt="" class="position-absolute vector-img vector-img-1">
+                    <img src="./assets/images/Vector 7.png" alt="" class="position-absolute vector-img vector-img-2">
+                    <img src="./assets/images/Vector 8.png" alt="" class="position-absolute vector-img vector-img-3">
+                    <img src="./assets/images/Vector 10.png" alt="" class="position-absolute vector-img vector-img-4">
+                    <img src="./assets/images/Vector 11.png" alt="" class="position-absolute vector-img vector-img-5">
+                    <div class="news-img"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="series-section py-5" id="series-section">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-4">
+                    <h3 class="mini-headings">Maple Series</h3>
+                    <div class="row no-gutters my-3">
+                        <div class="col-4 series-img-contain bg-pink d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/image 15.png" class="" alt="">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h4 class="card-title">Way Kambas Maple</h4>
+                                <p class="card-text">
+                                    Rp 1.280.000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-gutters my-3">
+                        <div class="col-4 series-img-contain bg-pink d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/image 21.png" class="" alt="">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h4 class="card-title">Kaili</h4>
+                                <p class="card-text">
+                                    Rp 950.000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-gutters my-3">
+                        <div class="col-4 series-img-contain bg-pink d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/image 16.png" class="" alt="">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h4 class="card-title">Sunda</h4>
+                                <p class="card-text">
+                                    Rp 1.170.000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h3 class="mini-headings">Ebony Series</h3>
+                    <div class="row no-gutters my-3">
+                        <div class="col-4 series-img-contain bg-pink d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/image 20.png" class="" alt="">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h4 class="card-title">Tomia Ebony</h4>
+                                <del><small>Rp 1.280.000</small></del>
+                                <p class="card-text">
+                                    Rp 960.000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-gutters my-3">
+                        <div class="col-4 series-img-contain bg-pink d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/image 22.png" class="" alt="">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h4 class="card-title">Mori</h4>
+                                <p class="card-text">
+                                    Rp 950.000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-gutters my-3">
+                        <div class="col-4 series-img-contain bg-pink d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/image 23.png" class="" alt="">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h4 class="card-title">Alor</h4>
+                                <p class="card-text">
+                                    Rp 1.170.000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h3 class="mini-headings">Featured</h3>
+                    <div class="row no-gutters my-3">
+                        <div class="col-4 series-img-contain bg-pink d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/image 17.png" class="" alt="">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h4 class="card-title">Sikka (Ebony & Maple)</h4>
+                                <p class="card-text">
+                                    Rp 1.198.000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-gutters my-3">
+                        <div class="col-4 series-img-contain bg-pink d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/image 18.png" class="" alt="">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h4 class="card-title">Lore Walnut</h4>
+                                <p class="card-text">
+                                    Rp 1.280.000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-gutters my-3">
+                        <div class="col-4 series-img-contain bg-pink d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/image 19.png" class="" alt="">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h4 class="card-title">Way Kambas Limited Edition</h4>
+                                <p class="card-text">
+                                    Rp 1.170.000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial-section py-5 mb-5" id="testimonial-section">
+        <div class="container">
+            <div id="carouselExampleInterval" class="carousel slide pb-5" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="10000">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./assets/images/Vector 15.png" alt="" class="position-absolute vector-testimonial-img vector-testimonial-img-1">
+                                <img src="./assets/images/Vector 16.png" alt="" class="position-absolute vector-testimonial-img vector-testimonial-img-2">
+                                <img src="./assets/images/Vector 17.png" alt="" class="position-absolute vector-testimonial-img vector-testimonial-img-3">                
+                                <div class="testimonial-img"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h2 class="headings head-txt mb-5">
+                                        Testimonials
+                                    </h2>
+                                    <p class="card-text">
+                                        Loving my new KAILI watch from @matoa_id, the first ever
+                                        Indonesian watch local brand that uses wood as their main material.
+                                        Like any other Matoa products, KAILI is inspired by Indonesian heritage.
+                                    </p>
+                                    <h3 class="mini-sub-title">Gita Savitri</h3>
+                                    <p class="card-text"><small class="text-muted">Content Creator/Influencer</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="10000">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./assets/images/Vector 15.png" alt="" class="position-absolute vector-testimonial-img vector-testimonial-img-1">
+                                <img src="./assets/images/Vector 16.png" alt="" class="position-absolute vector-testimonial-img vector-testimonial-img-2">
+                                <img src="./assets/images/Vector 17.png" alt="" class="position-absolute vector-testimonial-img vector-testimonial-img-3">
+                                <div class="testimonial-img"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h2 class="headings head-txt mb-5">
+                                        Testimonials
+                                    </h2>
+                                    <p class="card-text">
+                                        Loving my new KAILI watch from @matoa_id, the first ever
+                                        Indonesian watch local brand that uses wood as their main material.
+                                        Like any other Matoa products, KAILI is inspired by Indonesian heritage.
+                                    </p>
+                                    <h3 class="mini-sub-title">Gita Savitri</h3>
+                                    <p class="card-text"><small class="text-muted">Content Creator/Influencer</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testiomonial-control-contain d-flex position-absolute">
+                    <a class="carousel-control-prev p-3 position-relative" href="#carouselExampleInterval" role="button"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true">
+                            <svg width="33" height="24" viewBox="0 0 33 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 12H32M1 12L12 1M1 12L12 23" stroke="#999999" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next p-3 ml-2 position-relative" href="#carouselExampleInterval"
+                        role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true">
+                            <svg width="62" height="32" viewBox="0 0 62 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M61 16H1M61 16L46 1M61 16L46 31" stroke="#333333" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="instagram-section py-5" id="instagram-section">
+        <div class="container">
+            <div class="d-flex ig-imgs">
+                <div class="">
+                    <img src="./assets/images/Rectangle 38.png" class="w-100" alt="">
+                </div>
+                <div class="">
+                    <img src="./assets/images/Rectangle 39.png" class="w-100" alt="">
+                </div>
+                <div class="">
+                    <img src="./assets/images/Rectangle 40.png" class="w-100" alt="">
+                </div>
+                <div class="">
+                    <img src="./assets/images/Rectangle 41.png" class="w-100" alt="">
+                </div>
+                <div class="">
+                    <img src="./assets/images/Rectangle 42.png" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sponsor-section py-5 bg-medium-pink" id="sponsor-section">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-center">
+                <div class="px-5">
+                    <img src="./assets/images/image 25.png" class="w-100" alt="">
+                </div>
+                <div class="px-5">
+                    <img src="./assets/images/image 26.png" class="w-100" alt="">
+                </div>
+                <div class="px-5">
+                    <img src="./assets/images/image 27.png" class="w-100" alt="">
+                </div>
+                <div class="px-5">
+                    <img src="./assets/images/image 28.png" class="w-100" alt="">
+                </div>
+                <div class="px-5">
+                    <img src="./assets/images/image 29.png" class="w-100" alt="">
+                </div>
+                <div class="px-5">
+                    <img src="./assets/images/image 32.png" class="w-100" alt="">
+                </div>
+                <div class="px-5">
+                    <img src="./assets/images/image 33.png" class="w-100" alt="">
+                </div>
+                <div class="px-5">
+                    <img src="./assets/images/image 34.png" class="w-100" alt="">
+                </div>
+                <div class="px-5">
+                    <img src="./assets/images/image 35.png" class="w-100" alt="">
+                </div>
+                <div class="px-5">
+                    <img src="./assets/images/image 36.png" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-5 bg-dark-pink">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <img src="./assets/images/footer.png" class="mb-4" alt="">
+                    <h4 class="sub-title">Address</h4>
+                    <p>
+                        Store & Office
+                        Jl. Setrasari Kulon III, No. 10-12, Sukarasa, Sukasari,
+                        Bandung, Jawa Barat, Indonesia 40152
+                    </p>
+                    <h4 class="sub-title">Office Hour</h4>
+                    <p>
+                        Monday - Sunday<br>
+                        10.00 - 18.00
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h4 class="foot-title">Get in touch</h4>
+                    <ul>
+                        <li class="foot-links">
+                            <span class="d-inline-block contact-links">Phone</span>
+                            <a href="tel:+022-20277564">022-20277564</a>
+                        </li>
+                        <li class="foot-links">
+                            <span class="d-inline-block contact-links">Service Center</span>
+                            <a href="tel:+0811-233-8899">0811-233-8899</a>
+                        </li>
+                        <li class="foot-links">
+                            <span class="d-inline-block contact-links">Customer Service</span>
+                            <a href="tel:+0811-233-9988">0811-233-9988</a>
+                        </li>
+                        <li class="foot-links mt-3">
+                            <a href="" class="mr-2"><img src="./assets/images/Facebook.png" alt=""></a>
+                            <a href="" class="mr-2"><img src="./assets/images/Instagram.png" alt=""></a>
+                            <a href="" class="mr-2"><img src="./assets/images/Twitter.png" alt=""></a>
+                            <a href="" class="mr-2"><img src="./assets/images/Youtube.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h4 class="foot-title">Useful Link</h4>
+                    <ul>
+                        <li class="foot-links">
+                            <a href="">
+                                Warranty & Complaints
+                            </a>
+                        </li>
+                        <li class="foot-links">
+                            <a href="">
+                                Order & Shipping
+                            </a>
+                        </li>
+                        <li class="foot-links">
+                            <a href="">
+                                Tracking Order
+                            </a>
+                        </li>
+                        <li class="foot-links">
+                            <a href="">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="foot-links">
+                            <a href="">
+                                Repair
+                            </a>
+                        </li>
+                        <li class="foot-links">
+                            <a href="">
+                                Terms
+                            </a>
+                        </li>
+                        <li class="foot-links">
+                            <a href="">
+                                FAQ
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h4 class="foot-title">Campaign</h4>
+                    <ul>
+                        <li class="foot-links">
+                            <a href="">
+                                Mengenal Arti Cukup
+                            </a>
+                        </li>
+                        <li class="foot-links">
+                            <a href="">
+                                Tell Your Difference
+                            </a>
+                        </li>
+                        <li class="foot-links">
+                            <a href="">
+                                Waykambas
+                            </a>
+                        </li>
+                        <li class="foot-links">
+                            <a href="">
+                                Rebrand
+                            </a>
+                        </li>
+                        <li class="foot-links">
+                            <a href="">
+                                Gallery
+                            </a>
+                        </li>
+                        <li class="foot-links">
+                            <a href="">
+                                Singo
+                            </a>
+                        </li>
+                        <li class="foot-links">
+                            <a href="">
+                                Rakai
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
