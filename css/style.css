@@ -20,8 +20,15 @@ body {
 }
 a, 
 footer,
+.series-section,
 .head-txt {
     font-family: 'Taviraj', serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
 }
 
 a:hover {
@@ -32,10 +39,8 @@ ul {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-    display: inline-block;
-    color: inherit;
+button {
+    outline: none;
 }
 
 p {
@@ -106,9 +111,9 @@ p {
 
 .home-img {
     position: absolute;
-    bottom: -75px;
+    bottom: -100px;
     width: 100%;
-    max-height: 100%;
+    /* max-height: 100%; */
     z-index: 1000;
 }
 
@@ -135,7 +140,7 @@ p {
 }
 
 .carousel-control-contain  {
-    bottom: -15px;
+    bottom: -12px;
     right: 25px;
     z-index: 1000;
 }
@@ -172,11 +177,11 @@ p {
 
 .discover-watches {
     bottom: 2px;
-    right: 10px;
+    right: 2px;
 }
 
 .discover-glasses {
-    bottom: 10px;
+    bottom: 5px;
     right: 10px;
     width: 60%;
 }
@@ -194,7 +199,7 @@ p {
 }
 
 .discover-txt {
-    max-width: 310px;
+    max-width: 300px;
 }
 
 .deals-img-container {
@@ -229,15 +234,11 @@ p {
     background-image: url('../assets/images/image\ 12.png');
 }
 
-.show-btn {
-    display: none;
-}
-
 .deals-card {
     font-family: 'Taviraj', serif;
 }
 .deals-card:hover .show-btn {
-    display: contents;
+    display: contents !important;
 }
 
 .deals-item,
@@ -399,13 +400,25 @@ footer {
 }
 
 .foot-links {
-    line-height: 30px;
+    line-height: 31px;
 }
 
 footer a:hover {
     text-decoration: none;
     color: inherit;
     filter: opacity(0.6);
+}
+
+@media (max-width: 768px) {
+    .home-txt {
+        font-size: 40px;
+        max-width: 290px;
+    }
+
+    .discover-title,
+    .discover-sub-title {
+        font-size: 28px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -417,7 +430,6 @@ footer a:hover {
         bottom: 0px;
         width: 60%;
         z-index: 1000;
-        margin: auto;
     }
 
     .home-txt {
